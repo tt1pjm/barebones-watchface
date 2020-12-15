@@ -247,7 +247,7 @@ impl BarebonesWatchFace {
             let mut buf = new_string();
             write!(
                 &mut buf,              //  Write the formatted text
-                "{} \u{F293}#\0",      //  LV_SYMBOL_BLUETOOTH. Must terminate Rust strings with null.
+                "{} \u{F54B}#\0",      //  LV_SYMBOL_BLUETOOTH. Must terminate Rust strings with null.F293
                 color
             ).expect("bt fail");
 
