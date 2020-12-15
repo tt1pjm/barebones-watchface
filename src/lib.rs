@@ -301,6 +301,8 @@ impl BarebonesWatchFace {
     
     /// Populate the Step Label with a value
     fn update_step(&self, state: &WatchFaceState) -> MynewtResult<()> {
+        //  Get the active screen
+        let screen = watchface::get_active_screen();
         //  Steps up to 99999 per day
         let mut buf = new_string();
         write!(
@@ -322,6 +324,8 @@ impl BarebonesWatchFace {
     
     /// Populate the Heart Label with a value
     fn update_heart(&self, state: &WatchFaceState) -> MynewtResult<()> {
+        //  Get the active screen
+        let screen = watchface::get_active_screen();
         //  Heart rate up to 3 digits
         let mut buf = new_string();
         write!(
