@@ -146,7 +146,7 @@ impl WatchFace for BarebonesWatchFace {
             },
             
             //  Create a Label for Heart Rate
-            step_label: {
+            heart_label: {
                 let lbl = label::create(screen, ptr::null()) ? ;
                 obj::set_width(    lbl, 80) ? ;
                 obj::set_height(   lbl, 20) ? ;
