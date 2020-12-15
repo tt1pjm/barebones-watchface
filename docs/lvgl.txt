@@ -78,7 +78,7 @@ Import[34]:
  - func[31] sig=1 <legalimport$invoke_j> <- env.invoke_j
  - func[32] sig=2 <legalimport$invoke_jii> <- env.invoke_jii
  - memory[0] pages: initial=256 max=256 <- env.memory
-Function[1099]:
+Function[1101]:
  - func[33] sig=7 <__wasm_call_ctors>
  - func[34] sig=7 <_lv_indev_init>
  - func[35] sig=4 <lv_indev_reset>
@@ -1138,51 +1138,53 @@ Function[1099]:
  - func[1089] sig=1 <core::result::Result$LT$T$C$E$GT$::map_err::h9170af7afa1ddaec>
  - func[1090] sig=1 <core::result::Result$LT$T$C$E$GT$::map_err::hb975f25f223584ac>
  - func[1091] sig=0 <core::result::Result$LT$T$C$E$GT$::map_err::he920e5e6632f54ea>
- - func[1092] sig=4 <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::from_error::he316b043df72a9dc>
+ - func[1092] sig=4 <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::from_error::ha4089fce8c440249>
  - func[1093] sig=28 <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::into_result::h01acdb3c6d7a8893>
  - func[1094] sig=28 <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::into_result::h44d111b4dcc9801a>
  - func[1095] sig=0 <_$LT$watchface..BluetoothState$u20$as$u20$core..cmp..PartialEq$GT$::eq::h9f091ed35e19ede1>
- - func[1096] sig=5 <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::new::hcbc2e82aebc3fb94>
- - func[1097] sig=0 <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::update::hae460c01ad72690e>
- - func[1098] sig=0 <barebones_watchface::BarebonesWatchFace::update_date_time::h5660d93e7e1ccbe0>
- - func[1099] sig=0 <barebones_watchface::BarebonesWatchFace::update_bluetooth::head90bde1d7df95c>
- - func[1100] sig=0 <barebones_watchface::BarebonesWatchFace::update_power::h0190f4ab2fcb1f38>
- - func[1101] sig=4 <barebones_watchface::get_day_name::h93c338d634e02b30>
- - func[1102] sig=4 <barebones_watchface::get_month_name::h2a07ac61ab9ba973>
- - func[1103] sig=1 <barebones_watchface::convert_battery_voltage::ha7c6023e11ed0f50>
- - func[1104] sig=5 <core::ptr::drop_in_place::h323c2ab79e6e6d04>
- - func[1105] sig=11 <core::result::Result$LT$T$C$E$GT$::expect::h16c027cf65d58e01>
- - func[1106] sig=8 <create_clock>
- - func[1107] sig=8 <refresh_clock>
- - func[1108] sig=18 <update_clock>
- - func[1109] sig=8 <stackSave>
- - func[1110] sig=5 <stackRestore>
- - func[1111] sig=1 <stackAlloc>
- - func[1112] sig=1 <fflush>
- - func[1113] sig=1 <__fflush_unlocked>
- - func[1114] sig=1 <htonl>
- - func[1115] sig=1 <__bswap_32>
- - func[1116] sig=1 <htons>
- - func[1117] sig=1 <__bswap_16>
- - func[1118] sig=1 <ntohs>
- - func[1119] sig=1 <__bswap_16.1>
- - func[1120] sig=35 <dynCall_jiji>
- - func[1121] sig=12 <dynCall_j>
- - func[1122] sig=16 <dynCall_ji>
- - func[1123] sig=34 <dynCall_jiii>
- - func[1124] sig=15 <dynCall_jii>
- - func[1125] sig=9 <legalstub$dynCall_jiji>
- - func[1126] sig=1 <legalstub$dynCall_j>
- - func[1127] sig=0 <legalstub$dynCall_ji>
- - func[1128] sig=10 <legalstub$dynCall_jiii>
- - func[1129] sig=2 <legalstub$dynCall_jii>
- - func[1130] sig=12 <legalfunc$invoke_j>
- - func[1131] sig=15 <legalfunc$invoke_jii>
+ - func[1096] sig=5 <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::new::h791dd93202d3d754>
+ - func[1097] sig=0 <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::update::hd8f3a847124b2891>
+ - func[1098] sig=0 <barebones_watchface::BarebonesWatchFace::update_date_time::he8dc40a2166ff1f8>
+ - func[1099] sig=0 <barebones_watchface::BarebonesWatchFace::update_bluetooth::he5de8c97c1c13764>
+ - func[1100] sig=0 <barebones_watchface::BarebonesWatchFace::update_power::h3ffe784bb439e9d6>
+ - func[1101] sig=0 <barebones_watchface::BarebonesWatchFace::update_step::hee9d8d0f048f994e>
+ - func[1102] sig=0 <barebones_watchface::BarebonesWatchFace::update_heart::hdc64d721e485a94e>
+ - func[1103] sig=4 <barebones_watchface::get_day_name::h93c338d634e02b30>
+ - func[1104] sig=4 <barebones_watchface::get_month_name::h2a07ac61ab9ba973>
+ - func[1105] sig=1 <barebones_watchface::convert_battery_voltage::ha7c6023e11ed0f50>
+ - func[1106] sig=5 <core::ptr::drop_in_place::h323c2ab79e6e6d04>
+ - func[1107] sig=11 <core::result::Result$LT$T$C$E$GT$::expect::h24a40b91126acfc5>
+ - func[1108] sig=8 <create_clock>
+ - func[1109] sig=8 <refresh_clock>
+ - func[1110] sig=18 <update_clock>
+ - func[1111] sig=8 <stackSave>
+ - func[1112] sig=5 <stackRestore>
+ - func[1113] sig=1 <stackAlloc>
+ - func[1114] sig=1 <fflush>
+ - func[1115] sig=1 <__fflush_unlocked>
+ - func[1116] sig=1 <htonl>
+ - func[1117] sig=1 <__bswap_32>
+ - func[1118] sig=1 <htons>
+ - func[1119] sig=1 <__bswap_16>
+ - func[1120] sig=1 <ntohs>
+ - func[1121] sig=1 <__bswap_16.1>
+ - func[1122] sig=35 <dynCall_jiji>
+ - func[1123] sig=12 <dynCall_j>
+ - func[1124] sig=16 <dynCall_ji>
+ - func[1125] sig=34 <dynCall_jiii>
+ - func[1126] sig=15 <dynCall_jii>
+ - func[1127] sig=9 <legalstub$dynCall_jiji>
+ - func[1128] sig=1 <legalstub$dynCall_j>
+ - func[1129] sig=0 <legalstub$dynCall_ji>
+ - func[1130] sig=10 <legalstub$dynCall_jiii>
+ - func[1131] sig=2 <legalstub$dynCall_jii>
+ - func[1132] sig=12 <legalfunc$invoke_j>
+ - func[1133] sig=15 <legalfunc$invoke_jii>
 Table[1]:
  - table[0] type=funcref initial=175 max=175
 Global[2]:
- - global[0] i32 mutable=1 - init i32=5857120
- - global[1] i32 mutable=0 <__data_end> - init i32=614236
+ - global[0] i32 mutable=1 - init i32=5857232
+ - global[1] i32 mutable=0 <__data_end> - init i32=614340
 Export[30]:
  - table[0] -> "__indirect_function_table"
  - func[33] <__wasm_call_ctors> -> "__wasm_call_ctors"
@@ -1194,26 +1196,26 @@ Export[30]:
  - func[670] <render_widgets> -> "render_widgets"
  - func[672] <render_display> -> "render_display"
  - func[673] <main> -> "main"
- - func[1106] <create_clock> -> "create_clock"
- - func[1107] <refresh_clock> -> "refresh_clock"
- - func[1108] <update_clock> -> "update_clock"
- - func[1118] <ntohs> -> "ntohs"
- - func[1116] <htons> -> "htons"
- - func[1114] <htonl> -> "htonl"
+ - func[1108] <create_clock> -> "create_clock"
+ - func[1109] <refresh_clock> -> "refresh_clock"
+ - func[1110] <update_clock> -> "update_clock"
+ - func[1120] <ntohs> -> "ntohs"
+ - func[1118] <htons> -> "htons"
+ - func[1116] <htonl> -> "htonl"
  - func[679] <__errno_location> -> "__errno_location"
- - func[1112] <fflush> -> "fflush"
- - func[1109] <stackSave> -> "stackSave"
- - func[1110] <stackRestore> -> "stackRestore"
- - func[1111] <stackAlloc> -> "stackAlloc"
+ - func[1114] <fflush> -> "fflush"
+ - func[1111] <stackSave> -> "stackSave"
+ - func[1112] <stackRestore> -> "stackRestore"
+ - func[1113] <stackAlloc> -> "stackAlloc"
  - func[739] <dlmalloc> -> "malloc"
  - func[740] <dlfree> -> "free"
  - func[746] <emscripten_main_thread_process_queued_calls> -> "emscripten_main_thread_process_queued_calls"
  - global[1] -> "__data_end"
- - func[1125] <legalstub$dynCall_jiji> -> "dynCall_jiji"
- - func[1126] <legalstub$dynCall_j> -> "dynCall_j"
- - func[1127] <legalstub$dynCall_ji> -> "dynCall_ji"
- - func[1128] <legalstub$dynCall_jiii> -> "dynCall_jiii"
- - func[1129] <legalstub$dynCall_jii> -> "dynCall_jii"
+ - func[1127] <legalstub$dynCall_jiji> -> "dynCall_jiji"
+ - func[1128] <legalstub$dynCall_j> -> "dynCall_j"
+ - func[1129] <legalstub$dynCall_ji> -> "dynCall_ji"
+ - func[1130] <legalstub$dynCall_jiii> -> "dynCall_jiii"
+ - func[1131] <legalstub$dynCall_jii> -> "dynCall_jii"
 Elem[1]:
  - segment[0] flags=0 table=0 count=174 - init i32=1
   - elem[1] = func[46] <lv_obj_design>
@@ -1389,8 +1391,8 @@ Elem[1]:
   - elem[171] = func[1083] <_$LT$heapless..string..String$LT$N$GT$$u20$as$u20$core..fmt..Display$GT$::fmt::h989da687b994ea22>
   - elem[172] = func[963] <core::fmt::num::imp::_$LT$impl$u20$core..fmt..Display$u20$for$u20$u16$GT$::fmt::hf11d4940604bfb03>
   - elem[173] = func[1050] <_$LT$$RF$T$u20$as$u20$core..fmt..Display$GT$::fmt::h95353803feec6842>
-  - elem[174] = func[1104] <core::ptr::drop_in_place::h323c2ab79e6e6d04>
-Code[1099]:
+  - elem[174] = func[1106] <core::ptr::drop_in_place::h323c2ab79e6e6d04>
+Code[1101]:
  - func[33] size=5 <__wasm_call_ctors>
  - func[34] size=15 <_lv_indev_init>
  - func[35] size=833 <lv_indev_reset>
@@ -2450,48 +2452,50 @@ Code[1099]:
  - func[1089] size=221 <core::result::Result$LT$T$C$E$GT$::map_err::h9170af7afa1ddaec>
  - func[1090] size=221 <core::result::Result$LT$T$C$E$GT$::map_err::hb975f25f223584ac>
  - func[1091] size=262 <core::result::Result$LT$T$C$E$GT$::map_err::he920e5e6632f54ea>
- - func[1092] size=51 <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::from_error::he316b043df72a9dc>
+ - func[1092] size=51 <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::from_error::ha4089fce8c440249>
  - func[1093] size=137 <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::into_result::h01acdb3c6d7a8893>
  - func[1094] size=137 <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::into_result::h44d111b4dcc9801a>
  - func[1095] size=285 <_$LT$watchface..BluetoothState$u20$as$u20$core..cmp..PartialEq$GT$::eq::h9f091ed35e19ede1>
- - func[1096] size=5302 <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::new::hcbc2e82aebc3fb94>
- - func[1097] size=421 <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::update::hae460c01ad72690e>
- - func[1098] size=1703 <barebones_watchface::BarebonesWatchFace::update_date_time::h5660d93e7e1ccbe0>
- - func[1099] size=1050 <barebones_watchface::BarebonesWatchFace::update_bluetooth::head90bde1d7df95c>
- - func[1100] size=1602 <barebones_watchface::BarebonesWatchFace::update_power::h0190f4ab2fcb1f38>
- - func[1101] size=427 <barebones_watchface::get_day_name::h93c338d634e02b30>
- - func[1102] size=658 <barebones_watchface::get_month_name::h2a07ac61ab9ba973>
- - func[1103] size=39 <barebones_watchface::convert_battery_voltage::ha7c6023e11ed0f50>
- - func[1104] size=31 <core::ptr::drop_in_place::h323c2ab79e6e6d04>
- - func[1105] size=219 <core::result::Result$LT$T$C$E$GT$::expect::h16c027cf65d58e01>
- - func[1106] size=285 <create_clock>
- - func[1107] size=48 <refresh_clock>
- - func[1108] size=360 <update_clock>
- - func[1109] size=4 <stackSave>
- - func[1110] size=6 <stackRestore>
- - func[1111] size=20 <stackAlloc>
- - func[1112] size=186 <fflush>
- - func[1113] size=109 <__fflush_unlocked>
- - func[1114] size=7 <htonl>
- - func[1115] size=36 <__bswap_32>
- - func[1116] size=7 <htons>
- - func[1117] size=16 <__bswap_16>
- - func[1118] size=7 <ntohs>
- - func[1119] size=16 <__bswap_16.1>
- - func[1120] size=13 <dynCall_jiji>
- - func[1121] size=7 <dynCall_j>
- - func[1122] size=9 <dynCall_ji>
- - func[1123] size=13 <dynCall_jiii>
- - func[1124] size=11 <dynCall_jii>
- - func[1125] size=36 <legalstub$dynCall_jiji>
- - func[1126] size=22 <legalstub$dynCall_j>
- - func[1127] size=24 <legalstub$dynCall_ji>
- - func[1128] size=28 <legalstub$dynCall_jiii>
- - func[1129] size=26 <legalstub$dynCall_jii>
- - func[1130] size=14 <legalfunc$invoke_j>
- - func[1131] size=18 <legalfunc$invoke_jii>
+ - func[1096] size=7866 <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::new::h791dd93202d3d754>
+ - func[1097] size=645 <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::update::hd8f3a847124b2891>
+ - func[1098] size=1703 <barebones_watchface::BarebonesWatchFace::update_date_time::he8dc40a2166ff1f8>
+ - func[1099] size=1050 <barebones_watchface::BarebonesWatchFace::update_bluetooth::he5de8c97c1c13764>
+ - func[1100] size=1602 <barebones_watchface::BarebonesWatchFace::update_power::h3ffe784bb439e9d6>
+ - func[1101] size=496 <barebones_watchface::BarebonesWatchFace::update_step::hee9d8d0f048f994e>
+ - func[1102] size=496 <barebones_watchface::BarebonesWatchFace::update_heart::hdc64d721e485a94e>
+ - func[1103] size=427 <barebones_watchface::get_day_name::h93c338d634e02b30>
+ - func[1104] size=658 <barebones_watchface::get_month_name::h2a07ac61ab9ba973>
+ - func[1105] size=39 <barebones_watchface::convert_battery_voltage::ha7c6023e11ed0f50>
+ - func[1106] size=31 <core::ptr::drop_in_place::h323c2ab79e6e6d04>
+ - func[1107] size=259 <core::result::Result$LT$T$C$E$GT$::expect::h24a40b91126acfc5>
+ - func[1108] size=320 <create_clock>
+ - func[1109] size=48 <refresh_clock>
+ - func[1110] size=360 <update_clock>
+ - func[1111] size=4 <stackSave>
+ - func[1112] size=6 <stackRestore>
+ - func[1113] size=20 <stackAlloc>
+ - func[1114] size=186 <fflush>
+ - func[1115] size=109 <__fflush_unlocked>
+ - func[1116] size=7 <htonl>
+ - func[1117] size=36 <__bswap_32>
+ - func[1118] size=7 <htons>
+ - func[1119] size=16 <__bswap_16>
+ - func[1120] size=7 <ntohs>
+ - func[1121] size=16 <__bswap_16.1>
+ - func[1122] size=13 <dynCall_jiji>
+ - func[1123] size=7 <dynCall_j>
+ - func[1124] size=9 <dynCall_ji>
+ - func[1125] size=13 <dynCall_jiii>
+ - func[1126] size=11 <dynCall_jii>
+ - func[1127] size=36 <legalstub$dynCall_jiji>
+ - func[1128] size=22 <legalstub$dynCall_j>
+ - func[1129] size=24 <legalstub$dynCall_ji>
+ - func[1130] size=28 <legalstub$dynCall_jiii>
+ - func[1131] size=26 <legalstub$dynCall_jii>
+ - func[1132] size=14 <legalfunc$invoke_j>
+ - func[1133] size=18 <legalfunc$invoke_jii>
 Data[3]:
- - segment[0] memory=0 size=140912 - init i32=1024
+ - segment[0] memory=0 size=141000 - init i32=1024
   - 0000400: 2e2f 2e2f 7372 632f 6c76 5f63 6f72 652f  ././src/lv_core/
   - 0000410: 6c76 5f64 6973 702e 6300 6c76 5f64 6973  lv_disp.c.lv_dis
   - 0000420: 705f 6765 745f 7363 725f 6163 7400 6e6f  p_get_scr_act.no
@@ -10588,7 +10592,7 @@ Data[3]:
   - 001fdd0: 6574 732e 2e2e 0042 7574 746f 6e00 496e  ets....Button.In
   - 001fde0: 2043 3a20 5265 6e64 6572 696e 6720 6469   C: Rendering di
   - 001fdf0: 7370 6c61 792e 2e2e 0049 6e20 433a 206d  splay....In C: m
-  - 001fe00: 6169 6e28 2900 0000 282b 0200 2d2b 2020  ain()...(+..-+  
+  - 001fe00: 6169 6e28 2900 0000 882b 0200 2d2b 2020  ain()....+..-+  
   - 001fe10: 2030 5830 7800 286e 756c 6c29 0000 0000   0X0x.(null)....
   - 001fe20: 1100 0a00 1111 1100 0000 0005 0000 0000  ................
   - 001fe30: 0000 0900 0000 000b 0000 0000 0000 0000  ................
@@ -11255,95 +11259,95 @@ Data[3]:
   - 0022780: 756e 7772 6170 2829 6020 6f6e 2061 6e20  unwrap()` on an 
   - 0022790: 6045 7272 6020 7661 6c75 6500 a800 0000  `Err` value.....
   - 00227a0: 0000 0000 0100 0000 a900 0000 3030 3a30  ............00:0
-  - 00227b0: 3000 003a b327 0200 0000 0000 b327 0200  0..:.'.......'..
-  - 00227c0: 0100 0000 b227 0200 0100 0000 0000 0000  .....'..........
-  - 00227d0: 2000 0000 0800 0000 0200 0000 0000 0000   ...............
-  - 00227e0: 0000 0000 0200 0000 0300 0000 0100 0000  ................
-  - 00227f0: 2000 0000 0800 0000 0200 0000 0000 0000   ...............
-  - 0022800: 0000 0000 0200 0000 0300 0000 7469 6d65  ............time
-  - 0022810: 2066 6169 6c2f 686f 6d65 2f72 756e 6e65   fail/home/runne
-  - 0022820: 722f 776f 726b 2f62 6172 6562 6f6e 6573  r/work/barebones
-  - 0022830: 2d77 6174 6368 6661 6365 2f62 6172 6562  -watchface/bareb
-  - 0022840: 6f6e 6573 2d77 6174 6368 6661 6365 2f73  ones-watchface/s
-  - 0022850: 7263 2f6c 6962 2e72 7300 0000 1528 0200  rc/lib.rs....(..
-  - 0022860: 4400 0000 a700 0000 0b00 0000 200a 0000  D........... ...
-  - 0022870: b327 0200 0000 0000 6c28 0200 0100 0000  .'......l(......
-  - 0022880: 6c28 0200 0100 0000 6c28 0200 0100 0000  l(......l(......
-  - 0022890: 6d28 0200 0200 0000 6461 7465 2066 6169  m(......date fai
-  - 00228a0: 6c00 0000 1528 0200 4400 0000 bb00 0000  l....(..D.......
-  - 00228b0: 0b00 0000 0223 3030 6666 3030 2366 6630  .....#00ff00#ff0
-  - 00228c0: 3030 3023 3030 3030 6666 2330 3030 3030  000#0000ff#00000
-  - 00228d0: 3020 ef8a 9323 0000 b327 0200 0000 0000  0 ...#...'......
-  - 00228e0: d128 0200 0600 0000 6274 2066 6169 6c00  .(......bt fail.
-  - 00228f0: 1528 0200 4400 0000 dc00 0000 0f00 0000  .(..D...........
-  - 0022900: 2366 3234 3935 6323 3733 6266 3639 2366  #f2495c#73bf69#f
-  - 0022910: 6164 6532 61ef 83a7 2523 0a52 5553 5459  ade2a...%#.RUSTY
-  - 0022920: 3120 286d 5629 0000 b327 0200 0000 0000  1 (mV)...'......
-  - 0022930: 6c28 0200 0100 0000 1829 0200 0100 0000  l(.......)......
-  - 0022940: 1929 0200 0a00 0000 2329 0200 0400 0000  .)......#)......
-  - 0022950: 6261 7474 2066 6169 6c00 0000 1528 0200  batt fail....(..
-  - 0022960: 4400 0000 0101 0000 0b00 0000 3f3f 3f44  D...........???D
-  - 0022970: 4543 4e4f 564f 4354 5345 5041 5547 4a55  ECNOVOCTSEPAUGJU
-  - 0022980: 4c4a 554e 4d41 5941 5052 4d41 5246 4542  LJUNMAYAPRMARFEB
-  - 0022990: 4a41 4e53 4154 4652 4954 4855 5745 4454  JANSATFRITHUWEDT
-  - 00229a0: 5545 4d4f 4e53 554e ae00 0000 0400 0000  UEMONSUN........
-  - 00229b0: 0400 0000 9d00 0000 496e 2052 7573 743a  ........In Rust:
-  - 00229c0: 2043 7265 6174 696e 6720 636c 6f63 6b2e   Creating clock.
-  - 00229d0: 2e2e 0043 7265 6174 6520 7761 7463 6820  ...Create watch 
-  - 00229e0: 6661 6365 2066 6169 6c6d 796e 6577 742f  face failmynewt/
-  - 00229f0: 7761 736d 2f73 7263 2f6c 6962 2e72 7300  wasm/src/lib.rs.
-  - 0022a00: e929 0200 1600 0000 1900 0000 0e00 0000  .)..............
-  - 0022a10: 496e 2052 7573 743a 2052 6566 7265 7368  In Rust: Refresh
-  - 0022a20: 696e 6720 636c 6f63 6b2e 2e2e 0049 6e20  ing clock....In 
-  - 0022a30: 5275 7374 3a20 5570 6461 7469 6e67 2063  Rust: Updating c
-  - 0022a40: 6c6f 636b 2e2e 2e00 5570 6461 7465 2077  lock....Update w
-  - 0022a50: 6174 6368 2066 6163 6520 6661 696c 0000  atch face fail..
-  - 0022a60: e929 0200 1600 0000 4300 0000 0e00 0000  .)......C.......
- - segment[1] memory=0 size=577 - init i32=141936
-  - 0022a70: 1300 0000 1400 0000 1b00 0500 0000 0000  ................
-  - 0022a80: 882a 0200 0000 0000 2013 0000 006e 0000  .*...... ....n..
-  - 0022a90: e012 0000 0813 0000 1000 0250 0000 0000  ...........P....
-  - 0022aa0: 0000 0000 0000 0000 1300 0000 1400 0000  ................
-  - 0022ab0: 3400 0900 0000 0000 c02a 0200 0000 0000  4........*......
-  - 0022ac0: 9080 0000 10de 0100 5080 0000 7880 0000  ........P...x...
-  - 0022ad0: 1000 0250 0000 0000 0000 0000 0000 0000  ...P............
-  - 0022ae0: 504d 0200 1000 0000 604d 0200 1000 0000  PM......`M......
-  - 0022af0: 1700 0000 1800 0000 1900 0000 1a00 0000  ................
-  - 0022b00: 1b00 0000 1c00 0000 0000 0000 0000 0000  ................
-  - 0022b10: a6f3 0100 acf3 0100 b1f3 0100 b6f3 0100  ................
-  - 0022b20: bcf3 0100 0000 0000 0500 0000 0000 0000  ................
-  - 0022b30: 0000 0000 2900 0000 0000 0000 0000 0000  ....)...........
-  - 0022b40: 0000 0000 0000 0000 0000 0000 2a00 0000  ............*...
-  - 0022b50: 2b00 0000 4858 0900 0004 0000 0000 0000  +...HX..........
-  - 0022b60: 0000 0000 0100 0000 0000 0000 0000 0000  ................
-  - 0022b70: 0000 000a ffff ffff 0000 0000 0000 0000  ................
-  - 0022b80: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0022b90: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0022ba0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0022bb0: 0000 0000 0000 0000 282b 0200 0000 0000  ........(+......
-  - 0022bc0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0022bd0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 00227b0: 3000 0000 3a00 0000 b427 0200 0000 0000  0...:....'......
+  - 00227c0: b427 0200 0100 0000 b227 0200 0100 0000  .'.......'......
+  - 00227d0: 0000 0000 2000 0000 0800 0000 0200 0000  .... ...........
+  - 00227e0: 0000 0000 0000 0000 0200 0000 0300 0000  ................
+  - 00227f0: 0100 0000 2000 0000 0800 0000 0200 0000  .... ...........
+  - 0022800: 0000 0000 0000 0000 0200 0000 0300 0000  ................
+  - 0022810: 7469 6d65 2066 6169 6c2f 686f 6d65 2f72  time fail/home/r
+  - 0022820: 756e 6e65 722f 776f 726b 2f62 6172 6562  unner/work/bareb
+  - 0022830: 6f6e 6573 2d77 6174 6368 6661 6365 2f62  ones-watchface/b
+  - 0022840: 6172 6562 6f6e 6573 2d77 6174 6368 6661  arebones-watchfa
+  - 0022850: 6365 2f73 7263 2f6c 6962 2e72 7300 0000  ce/src/lib.rs...
+  - 0022860: 1928 0200 4400 0000 c900 0000 0b00 0000  .(..D...........
+  - 0022870: 200a 0000 b427 0200 0000 0000 7028 0200   ....'......p(..
+  - 0022880: 0100 0000 7028 0200 0100 0000 7028 0200  ....p(......p(..
+  - 0022890: 0100 0000 7128 0200 0200 0000 6461 7465  ....q(......date
+  - 00228a0: 2066 6169 6c00 0000 1928 0200 4400 0000   fail....(..D...
+  - 00228b0: dd00 0000 0b00 0000 0223 3030 6666 3030  .........#00ff00
+  - 00228c0: 2366 6630 3030 3023 3030 3030 6666 2330  #ff0000#0000ff#0
+  - 00228d0: 3030 3030 3020 ef8a 9323 0000 b427 0200  00000 ...#...'..
+  - 00228e0: 0000 0000 d528 0200 0600 0000 6274 2066  .....(......bt f
+  - 00228f0: 6169 6c00 1928 0200 4400 0000 fe00 0000  ail..(..D.......
+  - 0022900: 0f00 0000 2366 3234 3935 6323 3733 6266  ....#f2495c#73bf
+  - 0022910: 3639 2366 6164 6532 61ef 83a7 2523 0a52  69#fade2a...%#.R
+  - 0022920: 5553 5459 3120 286d 5629 0000 b427 0200  USTY1 (mV)...'..
+  - 0022930: 0000 0000 7028 0200 0100 0000 1c29 0200  ....p(.......)..
+  - 0022940: 0100 0000 1d29 0200 0a00 0000 2729 0200  .....)......')..
+  - 0022950: 0400 0000 6261 7474 2066 6169 6c00 0000  ....batt fail...
+  - 0022960: 1928 0200 4400 0000 2301 0000 0b00 0000  .(..D...#.......
+  - 0022970: 3130 3030 3000 0000 7029 0200 0600 0000  10000...p)......
+  - 0022980: 7374 6570 2066 6169 6c00 0000 1928 0200  step fail....(..
+  - 0022990: 4400 0000 3701 0000 0b00 0000 3130 3000  D...7.......100.
+  - 00229a0: 9c29 0200 0400 0000 6865 6172 7420 6661  .)......heart fa
+  - 00229b0: 696c 0000 1928 0200 4400 0000 4701 0000  il...(..D...G...
+  - 00229c0: 0b00 0000 3f3f 3f44 4543 4e4f 564f 4354  ....???DECNOVOCT
+  - 00229d0: 5345 5041 5547 4a55 4c4a 554e 4d41 5941  SEPAUGJULJUNMAYA
+  - 00229e0: 5052 4d41 5246 4542 4a41 4e53 4154 4652  PRMARFEBJANSATFR
+  - 00229f0: 4954 4855 5745 4454 5545 4d4f 4e53 554e  ITHUWEDTUEMONSUN
+  - 0022a00: ae00 0000 0400 0000 0400 0000 9d00 0000  ................
+  - 0022a10: 496e 2052 7573 743a 2043 7265 6174 696e  In Rust: Creatin
+  - 0022a20: 6720 636c 6f63 6b2e 2e2e 0043 7265 6174  g clock....Creat
+  - 0022a30: 6520 7761 7463 6820 6661 6365 2066 6169  e watch face fai
+  - 0022a40: 6c6d 796e 6577 742f 7761 736d 2f73 7263  lmynewt/wasm/src
+  - 0022a50: 2f6c 6962 2e72 7300 412a 0200 1600 0000  /lib.rs.A*......
+  - 0022a60: 1900 0000 0e00 0000 496e 2052 7573 743a  ........In Rust:
+  - 0022a70: 2052 6566 7265 7368 696e 6720 636c 6f63   Refreshing cloc
+  - 0022a80: 6b2e 2e2e 0049 6e20 5275 7374 3a20 5570  k....In Rust: Up
+  - 0022a90: 6461 7469 6e67 2063 6c6f 636b 2e2e 2e00  dating clock....
+  - 0022aa0: 5570 6461 7465 2077 6174 6368 2066 6163  Update watch fac
+  - 0022ab0: 6520 6661 696c 0000 412a 0200 1600 0000  e fail..A*......
+  - 0022ac0: 4300 0000 0e00 0000                      C.......
+ - segment[1] memory=0 size=577 - init i32=142032
+  - 0022ad0: 1300 0000 1400 0000 1b00 0500 0000 0000  ................
+  - 0022ae0: e82a 0200 0000 0000 2013 0000 006e 0000  .*...... ....n..
+  - 0022af0: e012 0000 0813 0000 1000 0250 0000 0000  ...........P....
+  - 0022b00: 0000 0000 0000 0000 1300 0000 1400 0000  ................
+  - 0022b10: 3400 0900 0000 0000 202b 0200 0000 0000  4....... +......
+  - 0022b20: 9080 0000 10de 0100 5080 0000 7880 0000  ........P...x...
+  - 0022b30: 1000 0250 0000 0000 0000 0000 0000 0000  ...P............
+  - 0022b40: b04d 0200 1000 0000 c04d 0200 1000 0000  .M.......M......
+  - 0022b50: 1700 0000 1800 0000 1900 0000 1a00 0000  ................
+  - 0022b60: 1b00 0000 1c00 0000 0000 0000 0000 0000  ................
+  - 0022b70: a6f3 0100 acf3 0100 b1f3 0100 b6f3 0100  ................
+  - 0022b80: bcf3 0100 0000 0000 0500 0000 0000 0000  ................
+  - 0022b90: 0000 0000 2900 0000 0000 0000 0000 0000  ....)...........
+  - 0022ba0: 0000 0000 0000 0000 0000 0000 2a00 0000  ............*...
+  - 0022bb0: 2b00 0000 a858 0900 0004 0000 0000 0000  +....X..........
+  - 0022bc0: 0000 0000 0100 0000 0000 0000 0000 0000  ................
+  - 0022bd0: 0000 000a ffff ffff 0000 0000 0000 0000  ................
   - 0022be0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022bf0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022c00: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0022c10: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0022c10: 0000 0000 0000 0000 882b 0200 0000 0000  .........+......
   - 0022c20: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022c30: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022c40: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022c50: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0022c60: 0000 0000 0000 0000 0000 0000 705c 0900  ............p\..
+  - 0022c60: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022c70: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022c80: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022c90: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0022ca0: 0000 0000 605f 5900 0100 0000 0000 0000  ....`_Y.........
-  - 0022cb0: 01                                       .
- - segment[2] memory=0 size=471708 - init i32=142528
-  - 0022cc0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0022ca0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0022cb0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0022cc0: 0000 0000 0000 0000 0000 0000 d05c 0900  .............\..
   - 0022cd0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022ce0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022cf0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0022d00: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0022d10: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0022d00: 0000 0000 d05f 5900 0100 0000 0000 0000  ....._Y.........
+  - 0022d10: 01                                       .
+ - segment[2] memory=0 size=471716 - init i32=142624
   - 0022d20: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022d30: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0022d40: 0000 0000 0000 0000 0000 0000 0000 0000  ................
@@ -40819,7 +40823,14 @@ Data[3]:
   - 0095f20: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0095f30: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0095f40: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0095f50: 0000 0000 0000 0000 0000 0000            ............
+  - 0095f50: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0095f60: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0095f70: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0095f80: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0095f90: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0095fa0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0095fb0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0095fc0: 0000 0000                                ....
 Custom:
  - name: "name"
  - func[0] <__assert_fail>
@@ -41914,60 +41925,62 @@ Custom:
  - func[1089] <core::result::Result$LT$T$C$E$GT$::map_err::h9170af7afa1ddaec>
  - func[1090] <core::result::Result$LT$T$C$E$GT$::map_err::hb975f25f223584ac>
  - func[1091] <core::result::Result$LT$T$C$E$GT$::map_err::he920e5e6632f54ea>
- - func[1092] <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::from_error::he316b043df72a9dc>
+ - func[1092] <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::from_error::ha4089fce8c440249>
  - func[1093] <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::into_result::h01acdb3c6d7a8893>
  - func[1094] <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::into_result::h44d111b4dcc9801a>
  - func[1095] <_$LT$watchface..BluetoothState$u20$as$u20$core..cmp..PartialEq$GT$::eq::h9f091ed35e19ede1>
- - func[1096] <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::new::hcbc2e82aebc3fb94>
- - func[1097] <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::update::hae460c01ad72690e>
- - func[1098] <barebones_watchface::BarebonesWatchFace::update_date_time::h5660d93e7e1ccbe0>
- - func[1099] <barebones_watchface::BarebonesWatchFace::update_bluetooth::head90bde1d7df95c>
- - func[1100] <barebones_watchface::BarebonesWatchFace::update_power::h0190f4ab2fcb1f38>
- - func[1101] <barebones_watchface::get_day_name::h93c338d634e02b30>
- - func[1102] <barebones_watchface::get_month_name::h2a07ac61ab9ba973>
- - func[1103] <barebones_watchface::convert_battery_voltage::ha7c6023e11ed0f50>
- - func[1104] <core::ptr::drop_in_place::h323c2ab79e6e6d04>
- - func[1105] <core::result::Result$LT$T$C$E$GT$::expect::h16c027cf65d58e01>
- - func[1106] <create_clock>
- - func[1107] <refresh_clock>
- - func[1108] <update_clock>
- - func[1109] <stackSave>
- - func[1110] <stackRestore>
- - func[1111] <stackAlloc>
- - func[1112] <fflush>
- - func[1113] <__fflush_unlocked>
- - func[1114] <htonl>
- - func[1115] <__bswap_32>
- - func[1116] <htons>
- - func[1117] <__bswap_16>
- - func[1118] <ntohs>
- - func[1119] <__bswap_16.1>
- - func[1120] <dynCall_jiji>
- - func[1121] <dynCall_j>
- - func[1122] <dynCall_ji>
- - func[1123] <dynCall_jiii>
- - func[1124] <dynCall_jii>
- - func[1125] <legalstub$dynCall_jiji>
- - func[1126] <legalstub$dynCall_j>
- - func[1127] <legalstub$dynCall_ji>
- - func[1128] <legalstub$dynCall_jiii>
- - func[1129] <legalstub$dynCall_jii>
- - func[1130] <legalfunc$invoke_j>
- - func[1131] <legalfunc$invoke_jii>
- - func[1120] local[0] <fptr>
- - func[1120] local[1] <0>
- - func[1120] local[2] <1>
- - func[1120] local[3] <2>
- - func[1121] local[0] <fptr>
+ - func[1096] <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::new::h791dd93202d3d754>
+ - func[1097] <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::update::hd8f3a847124b2891>
+ - func[1098] <barebones_watchface::BarebonesWatchFace::update_date_time::he8dc40a2166ff1f8>
+ - func[1099] <barebones_watchface::BarebonesWatchFace::update_bluetooth::he5de8c97c1c13764>
+ - func[1100] <barebones_watchface::BarebonesWatchFace::update_power::h3ffe784bb439e9d6>
+ - func[1101] <barebones_watchface::BarebonesWatchFace::update_step::hee9d8d0f048f994e>
+ - func[1102] <barebones_watchface::BarebonesWatchFace::update_heart::hdc64d721e485a94e>
+ - func[1103] <barebones_watchface::get_day_name::h93c338d634e02b30>
+ - func[1104] <barebones_watchface::get_month_name::h2a07ac61ab9ba973>
+ - func[1105] <barebones_watchface::convert_battery_voltage::ha7c6023e11ed0f50>
+ - func[1106] <core::ptr::drop_in_place::h323c2ab79e6e6d04>
+ - func[1107] <core::result::Result$LT$T$C$E$GT$::expect::h24a40b91126acfc5>
+ - func[1108] <create_clock>
+ - func[1109] <refresh_clock>
+ - func[1110] <update_clock>
+ - func[1111] <stackSave>
+ - func[1112] <stackRestore>
+ - func[1113] <stackAlloc>
+ - func[1114] <fflush>
+ - func[1115] <__fflush_unlocked>
+ - func[1116] <htonl>
+ - func[1117] <__bswap_32>
+ - func[1118] <htons>
+ - func[1119] <__bswap_16>
+ - func[1120] <ntohs>
+ - func[1121] <__bswap_16.1>
+ - func[1122] <dynCall_jiji>
+ - func[1123] <dynCall_j>
+ - func[1124] <dynCall_ji>
+ - func[1125] <dynCall_jiii>
+ - func[1126] <dynCall_jii>
+ - func[1127] <legalstub$dynCall_jiji>
+ - func[1128] <legalstub$dynCall_j>
+ - func[1129] <legalstub$dynCall_ji>
+ - func[1130] <legalstub$dynCall_jiii>
+ - func[1131] <legalstub$dynCall_jii>
+ - func[1132] <legalfunc$invoke_j>
+ - func[1133] <legalfunc$invoke_jii>
  - func[1122] local[0] <fptr>
  - func[1122] local[1] <0>
+ - func[1122] local[2] <1>
+ - func[1122] local[3] <2>
  - func[1123] local[0] <fptr>
- - func[1123] local[1] <0>
- - func[1123] local[2] <1>
- - func[1123] local[3] <2>
  - func[1124] local[0] <fptr>
  - func[1124] local[1] <0>
- - func[1124] local[2] <1>
+ - func[1125] local[0] <fptr>
+ - func[1125] local[1] <0>
+ - func[1125] local[2] <1>
+ - func[1125] local[3] <2>
+ - func[1126] local[0] <fptr>
+ - func[1126] local[1] <0>
+ - func[1126] local[2] <1>
  - table[0] <0>
  - memory[0] <mimport$0>
  - global[0] <global$0>
