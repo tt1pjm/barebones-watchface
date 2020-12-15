@@ -63,6 +63,10 @@ pub struct BarebonesWatchFace {
     pub bluetooth_label: lvgl::Ptr,
     /// Label for Power Indicator (Charging & Battery)
     pub power_label:     lvgl::Ptr,
+    /// Label for Step Count
+    pub step_label:     lvgl::Ptr,
+    /// Label for Heart rate
+    pub heart_label:     lvgl::Ptr,
 }
 
 impl WatchFace for BarebonesWatchFace {
@@ -128,6 +132,30 @@ impl WatchFace for BarebonesWatchFace {
                 obj::align(        lbl, screen, obj::LV_ALIGN_IN_TOP_RIGHT, 0, 0) ? ;
                 lbl  //  Return the label as power_label
             },
+            
+            //  Create a Label for Step Count
+            step_label: {
+                let lbl = label::create(screen, ptr::null()) ? ;
+                obj::set_width(    lbl, 80) ? ;
+                obj::set_height(   lbl, 20) ? ;
+                label::set_text(   lbl, strn!("")) ? ;  //  strn creates a null-terminated string
+                label::set_recolor(lbl, true) ? ;
+                label::set_align(  lbl, label::LV_LABEL_ALIGN_LEFT) ? ;
+                obj::align(        lbl, screen, obj::LV_ALIGN_IN_BOTTOM_LEFT, 0, 0) ? ;
+                lbl  //  Return the label as step_label
+            },
+            
+            //  Create a Label for Heart Rate
+            step_label: {
+                let lbl = label::create(screen, ptr::null()) ? ;
+                obj::set_width(    lbl, 80) ? ;
+                obj::set_height(   lbl, 20) ? ;
+                label::set_text(   lbl, strn!("")) ? ;  //  strn creates a null-terminated string
+                label::set_recolor(lbl, true) ? ;
+                label::set_align(  lbl, label::LV_LABEL_ALIGN_RIGHT) ? ;
+                obj::align(        lbl, screen, obj::LV_ALIGN_IN_BOTTOM_RIGHT, 0, 0) ? ;
+                lbl  //  Return the label as heart_label
+            },
         };
         //  Return the watch face
         Ok(watch_face)
@@ -146,6 +174,12 @@ impl WatchFace for BarebonesWatchFace {
 
         //  Populate the Power Label
         self.update_power(state) ? ;
+        
+        //  Populate the Step Label
+        self.update_step(state) ? ;
+        
+        //  Populate the Heart Label
+        self.update_heart(state) ? ;
         Ok(())
     }
 }
@@ -263,6 +297,38 @@ impl BarebonesWatchFace {
         obj::align(
             self.power_label, screen, 
             obj::LV_ALIGN_IN_TOP_RIGHT, 0, 0
+        ) ? ;
+        Ok(())
+    }
+    
+    /// Populate the Step Label with a value
+    fn update_step(&self, state: &WatchFaceState) -> MynewtResult<()> {
+        //  Steps up to 99999 per day
+        let mut buf = new_string();
+        write!(
+            &mut buf,         //  Write the formatted text
+            "10000\0",  //  Must terminate Rust strings with null
+        ).expect("step fail");
+
+        label::set_text(      //  Set the label
+            self.step_label, 
+            &to_strn(&buf)
+        ) ? ;
+        Ok(())
+    }
+    
+    /// Populate the Heart Label with a value
+    fn update_heart(&self, state: &WatchFaceState) -> MynewtResult<()> {
+        //  Heart rate up to 3 digits
+        let mut buf = new_string();
+        write!(
+            &mut buf,         //  Write the formatted text
+            "100\0",  //  Must terminate Rust strings with null
+        ).expect("heart fail");
+
+        label::set_text(      //  Set the label
+            self.heart_label, 
+            &to_strn(&buf)
         ) ? ;
         Ok(())
     }
