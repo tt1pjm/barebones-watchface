@@ -2456,13 +2456,13 @@ Code[1101]:
  - func[1093] size=137 <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::into_result::h01acdb3c6d7a8893>
  - func[1094] size=137 <_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try..Try$GT$::into_result::h44d111b4dcc9801a>
  - func[1095] size=285 <_$LT$watchface..BluetoothState$u20$as$u20$core..cmp..PartialEq$GT$::eq::h9f091ed35e19ede1>
- - func[1096] size=7866 <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::new::h791dd93202d3d754>
+ - func[1096] size=7566 <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::new::h791dd93202d3d754>
  - func[1097] size=645 <_$LT$barebones_watchface..BarebonesWatchFace$u20$as$u20$watchface..WatchFace$GT$::update::hd8f3a847124b2891>
  - func[1098] size=1703 <barebones_watchface::BarebonesWatchFace::update_date_time::he8dc40a2166ff1f8>
  - func[1099] size=1050 <barebones_watchface::BarebonesWatchFace::update_bluetooth::he5de8c97c1c13764>
  - func[1100] size=1602 <barebones_watchface::BarebonesWatchFace::update_power::h3ffe784bb439e9d6>
- - func[1101] size=496 <barebones_watchface::BarebonesWatchFace::update_step::hee9d8d0f048f994e>
- - func[1102] size=496 <barebones_watchface::BarebonesWatchFace::update_heart::hdc64d721e485a94e>
+ - func[1101] size=654 <barebones_watchface::BarebonesWatchFace::update_step::hee9d8d0f048f994e>
+ - func[1102] size=654 <barebones_watchface::BarebonesWatchFace::update_heart::hdc64d721e485a94e>
  - func[1103] size=427 <barebones_watchface::get_day_name::h93c338d634e02b30>
  - func[1104] size=658 <barebones_watchface::get_month_name::h2a07ac61ab9ba973>
  - func[1105] size=39 <barebones_watchface::convert_battery_voltage::ha7c6023e11ed0f50>
@@ -11270,28 +11270,28 @@ Data[3]:
   - 0022830: 6f6e 6573 2d77 6174 6368 6661 6365 2f62  ones-watchface/b
   - 0022840: 6172 6562 6f6e 6573 2d77 6174 6368 6661  arebones-watchfa
   - 0022850: 6365 2f73 7263 2f6c 6962 2e72 7300 0000  ce/src/lib.rs...
-  - 0022860: 1928 0200 4400 0000 c900 0000 0b00 0000  .(..D...........
+  - 0022860: 1928 0200 4400 0000 c700 0000 0b00 0000  .(..D...........
   - 0022870: 200a 0000 b427 0200 0000 0000 7028 0200   ....'......p(..
   - 0022880: 0100 0000 7028 0200 0100 0000 7028 0200  ....p(......p(..
   - 0022890: 0100 0000 7128 0200 0200 0000 6461 7465  ....q(......date
   - 00228a0: 2066 6169 6c00 0000 1928 0200 4400 0000   fail....(..D...
-  - 00228b0: dd00 0000 0b00 0000 0223 3030 6666 3030  .........#00ff00
+  - 00228b0: db00 0000 0b00 0000 0223 3030 6666 3030  .........#00ff00
   - 00228c0: 2366 6630 3030 3023 3030 3030 6666 2330  #ff0000#0000ff#0
   - 00228d0: 3030 3030 3020 ef8a 9323 0000 b427 0200  00000 ...#...'..
   - 00228e0: 0000 0000 d528 0200 0600 0000 6274 2066  .....(......bt f
-  - 00228f0: 6169 6c00 1928 0200 4400 0000 fe00 0000  ail..(..D.......
+  - 00228f0: 6169 6c00 1928 0200 4400 0000 fc00 0000  ail..(..D.......
   - 0022900: 0f00 0000 2366 3234 3935 6323 3733 6266  ....#f2495c#73bf
   - 0022910: 3639 2366 6164 6532 61ef 83a7 2523 0a52  69#fade2a...%#.R
   - 0022920: 5553 5459 3120 286d 5629 0000 b427 0200  USTY1 (mV)...'..
   - 0022930: 0000 0000 7028 0200 0100 0000 1c29 0200  ....p(.......)..
   - 0022940: 0100 0000 1d29 0200 0a00 0000 2729 0200  .....)......')..
   - 0022950: 0400 0000 6261 7474 2066 6169 6c00 0000  ....batt fail...
-  - 0022960: 1928 0200 4400 0000 2301 0000 0b00 0000  .(..D...#.......
+  - 0022960: 1928 0200 4400 0000 2101 0000 0b00 0000  .(..D...!.......
   - 0022970: 3130 3030 3000 0000 7029 0200 0600 0000  10000...p)......
   - 0022980: 7374 6570 2066 6169 6c00 0000 1928 0200  step fail....(..
   - 0022990: 4400 0000 3701 0000 0b00 0000 3130 3000  D...7.......100.
   - 00229a0: 9c29 0200 0400 0000 6865 6172 7420 6661  .)......heart fa
-  - 00229b0: 696c 0000 1928 0200 4400 0000 4701 0000  il...(..D...G...
+  - 00229b0: 696c 0000 1928 0200 4400 0000 4e01 0000  il...(..D...N...
   - 00229c0: 0b00 0000 3f3f 3f44 4543 4e4f 564f 4354  ....???DECNOVOCT
   - 00229d0: 5345 5041 5547 4a55 4c4a 554e 4d41 5941  SEPAUGJULJUNMAYA
   - 00229e0: 5052 4d41 5246 4542 4a41 4e53 4154 4652  PRMARFEBJANSATFR
