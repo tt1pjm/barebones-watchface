@@ -136,10 +136,9 @@ impl WatchFace for BarebonesWatchFace {
             //  Create a Label for Step Count
             step_label: {
                 let lbl = label::create(screen, ptr::null()) ? ;
-                obj::set_width(    lbl, 80) ? ;
+                obj::set_width(    lbl, 100) ? ;
                 obj::set_height(   lbl, 20) ? ;
                 label::set_text(   lbl, strn!("")) ? ;  //  strn creates a null-terminated string
-                label::set_recolor(lbl, true) ? ;
                 label::set_align(  lbl, label::LV_LABEL_ALIGN_LEFT) ? ;
                 obj::align(        lbl, screen, obj::LV_ALIGN_IN_BOTTOM_LEFT, 0, 0) ? ;
                 lbl  //  Return the label as step_label
@@ -148,10 +147,9 @@ impl WatchFace for BarebonesWatchFace {
             //  Create a Label for Heart Rate
             heart_label: {
                 let lbl = label::create(screen, ptr::null()) ? ;
-                obj::set_width(    lbl, 80) ? ;
+                obj::set_width(    lbl, 100) ? ;
                 obj::set_height(   lbl, 20) ? ;
                 label::set_text(   lbl, strn!("")) ? ;  //  strn creates a null-terminated string
-                label::set_recolor(lbl, true) ? ;
                 label::set_align(  lbl, label::LV_LABEL_ALIGN_RIGHT) ? ;
                 obj::align(        lbl, screen, obj::LV_ALIGN_IN_BOTTOM_RIGHT, 0, 0) ? ;
                 lbl  //  Return the label as heart_label
@@ -314,6 +312,11 @@ impl BarebonesWatchFace {
             self.step_label, 
             &to_strn(&buf)
         ) ? ;
+        
+        obj::align(
+            self.step_label, screen, 
+            obj::LV_ALIGN_IN_BOTTOM_LEFT, 0, 0
+        ) ? ;
         Ok(())
     }
     
@@ -329,6 +332,11 @@ impl BarebonesWatchFace {
         label::set_text(      //  Set the label
             self.heart_label, 
             &to_strn(&buf)
+        ) ? ;
+        
+        obj::align(
+            self.heart_label, screen, 
+            obj::LV_ALIGN_IN_BOTTOM_RIGHT, 0, 0
         ) ? ;
         Ok(())
     }
